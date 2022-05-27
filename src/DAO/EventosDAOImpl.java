@@ -1,5 +1,6 @@
 package DAO;
 
+import DAO.EventosDAO;
 import Entity.Evento;
 
 import java.sql.*;
