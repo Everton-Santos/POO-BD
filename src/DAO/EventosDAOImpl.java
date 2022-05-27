@@ -1,4 +1,6 @@
-package edu.curso;
+package DAO;
+
+import Entity.Evento;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -6,7 +8,7 @@ import java.util.List;
 
 public class EventosDAOImpl implements EventosDAO {
     private final static String JDBC_CLASS = "org.mariadb.jdbc.Driver";
-    private static final String JDBC_URL = "jdbc:mariadb://localhost:3306/eventosdb?allowMultiQueries=true";
+    private static final String JDBC_URL = "jdbc:mariadb://localhost:3307/eventosdb?allowMultiQueries=true";
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASS = "123456";
     private Connection con;

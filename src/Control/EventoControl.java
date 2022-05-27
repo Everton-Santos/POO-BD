@@ -1,5 +1,8 @@
-package edu.curso;
+package Control;
 
+import Entity.Evento;
+import DAO.EventosDAO;
+import DAO.EventosDAOImpl;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

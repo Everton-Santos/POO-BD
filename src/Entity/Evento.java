@@ -1,4 +1,4 @@
-package edu.curso;
+package Entity;
 
 import java.time.LocalDate;
 

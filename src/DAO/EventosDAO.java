@@ -1,4 +1,6 @@
-package edu.curso;
+package DAO;
+
+import Entity.Evento;
 
 import java.util.List;
 
